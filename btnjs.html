@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
     <div class="content">
         <h1>JavaScript Button Demonstration</h1>
         <p>The button showcases events such as on-click, mouse-over, listening-event, page-load and image show/hide.</p>
         <p><strong>Click</strong> the button to see the picture hides and shows!</p>
 <body onload="loading()" >
-    <button id="doge" onclick="myPic()" onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:rgb(165, 136, 42);width:10;height:5; text-align: center">Doggo</button>
-
+    <div class="wrapper">
+        <button id="doge" onclick="myPic()" onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:rgb(165, 136, 42);width:10;height:5; text-align: center">Doggo</button>
+    </div>
 <div id="showimage" style="visibility:hidden;">
    <img id="dog" src="images/dogge.jpg" width="300" height="250" >
 </div>

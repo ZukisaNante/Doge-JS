@@ -1,3 +1,5 @@
+/*Zukisa Nante
+@2019 BeCpode*/
 // page loading
 function loading() {
   var text = "Doggo";
