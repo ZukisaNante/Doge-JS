@@ -10,10 +10,10 @@ function loading() {
 }
 // mouseover effects
 function mOver(obj) {
-    obj.innerHTML = "Woof woof!"
+    obj.innerHTML = "Woof woof!";
   }
   function mOut(obj) {
-    obj.innerHTML = "Woof!"
+    obj.innerHTML = "Woof!";
   }
   // image show/hide
   function myPic() {
