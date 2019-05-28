@@ -1,9 +1,14 @@
 body {
 background-color: aquamarine;
 }
-.container{
+.content{
     max-width: 500px;
     margin: auto;
     background: white;
     padding: 10px;
+}
+.doge{
+  width: 150px;
+  text-align: center;
+  margin:0 auto;
 }
