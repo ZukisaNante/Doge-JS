@@ -4,7 +4,7 @@ function loading() {
   if (navigator.cookieEnabled == true) {
     text = "Woof!";
   } else {
-    text = "Doggo.";
+    text = "Doggo!";
   }
   document.getElementById("doge").innerHTML = text;
 }
